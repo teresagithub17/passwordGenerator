@@ -17,3 +17,8 @@ This code generates a strong random password that is 8 to 128 characters long.
 
 If you encounter issues with the code, please report it to the https://github.com/teresagithub17/passwordGenerator/issues.
 
+#### Resources and links:
+1. Github published page: https://teresagithub17.github.io/passwordGenerator/
+2. Github repository: https://github.com/teresagithub17/passwordGenerator
+
+Thank you and Enjoy!
