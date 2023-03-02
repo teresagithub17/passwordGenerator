@@ -32,14 +32,16 @@ function generatePassword(){
 
  
 // 2. Validate the input to have at least one character type.
-  if(confirmUpperCase === false && confirmLowercase === false && confirmSpecial === false && confirmNumeric === false) {
+  while(confirmUpperCase === false && confirmLowercase === false && confirmSpecial === false && confirmNumeric === false) {
    alert("At least one character type should be selected.");
    var confirmLowercase = confirm("Would like to include lowecase characters?");
    var confirmUpperCase = confirm("Would like to include UPPERCASE characters?");
    var confirmNumeric = confirm("Would like to include numeric characters?");   
    var confirmSpecial = confirm("Would like to include special characters?"); 
+
   }
- 
+
+
 
 // 3. Generate the password  based on the criteria. 
 
