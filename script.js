@@ -18,10 +18,11 @@ function generatePassword(){
 // 1. Series of prompts for the pw criteria.
  // The length should be  8 to 128 and provide confirmation.
   var confirmLength = (prompt("Password length: Choose at least 8 to no more than 128 characters."));
-  if(confirmLength < 8 || confirmLength > 128) {
+  while(confirmLength < 8 || confirmLength > 128) {
     alert("Password length must be between 8-128 characters. Try again.");
     var confirmLength = (prompt("Password length: Choose at least 8 to no more than 128 characters."));
   }
+  
 
  // Determine if lowercase uppercase, numbers, special character is needed.
   var confirmLowercase = confirm("Would like to include lowercase characters?");
