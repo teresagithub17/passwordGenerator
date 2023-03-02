@@ -22,7 +22,6 @@ function generatePassword(){
     alert("Password length must be between 8-128 characters. Try again");
     var confirmLength = (prompt("Password length: Choose at least 8 to no more than 128 characters."));
   }
-  else alert(`Your password will have ${confirmLength} characters`);
 
  // Determine if lowercase uppercase, numbers, special character is needed.
   var confirmLowercase = confirm("Would like to include lowercase characters?");
